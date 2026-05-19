@@ -1,0 +1,38 @@
+ body {
+            margin: 0;
+            padding: 0;
+            background-color: #0D1F3F;
+            color: #F8FAFF;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+#gomb{
+    background-color: #93B2E4;
+    border: #93B2E4;
+    border-radius: 25px;
+    margin-right: 50px;
+}
+#hero{
+    width: 100%;
+    background-image: url(imgek/fohatter.png); 
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+#hero.container{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+#hero-text{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #F8FAFF;
+
+}
