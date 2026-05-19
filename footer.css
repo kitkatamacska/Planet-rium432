@@ -1,0 +1,38 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: #010314;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+#logofoot {
+    height: 100px; 
+    width: auto;
+}
+
+.infoka, .infokb {
+    color: #F8FAFF;
+    font-size: 25px; 
+    margin: 0; 
+    line-height: 1.5;
+}
+
+#minket {
+    color: #F8FAFF;
+    font-size: 25px;
+    margin-bottom: 8px; 
+}
+
+.ify {
+    height: 45px; 
+    margin-left: 12px; 
+}
