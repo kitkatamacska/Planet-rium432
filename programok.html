@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planetarium - Fedezd fel az univerzumot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+
+
+<header class="site-header">
+    <nav class="navbar navbar-expand-xl navbar-dark custom-navbar py-0">
+        <div class="container-fluid px-0">
+            
+            <a class="navbar-brand me-4 py-0" href="index.html">
+                <img src="logo.png" alt="Planetarium Logo" class="logo-img">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#planetariumNav" aria-controls="planetariumNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="planetariumNav">
+                
+                <ul class="navbar-nav nav-block-links me-auto mb-3 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="programok.html">Programok</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jegyek.html">Jegyek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galéria.html">Galéria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rólunk.html">Rólunk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex search-block" role="search">
+                    <input class="form-control custom-search-input" type="search" placeholder="Keresés..." aria-label="Search">
+                </form>
+
+            </div>
+            
+        </div>
+    </nav>
+</header>
+
+<main class="page-content py-5">
+    <section class="page-hero text-center mb-5">
+        <div class="container">
+            <h1 class="program-main-title text-uppercase">Aktuális Programok</h1>
+            <p class="program-subtitle">Fedezd fel izgalmas előadásainkat és eseményeinket</p>
+        </div>
+    </section>
+
+    <section class="program-list">
+        <div class="container" style="max-width: 1100px;">
+            <div class="row g-4">
+                
+                <div class="col-12">
+                    <article class="program-card d-flex flex-column flex-md-row align-items-center p-4">
+                        <div class="program-image mb-3 mb-md-0">
+                            <img src="imgek/bolygo2.png" alt="Naprendszer Csodái" class="img-fluid rounded">
+                        </div>
+                        <div class="program-info flex-grow-1 px-md-4 text-center text-md-start">
+                            <div class="mb-3">
+                                <h2>Naprendszer Csodái</h2>
+                                <p>Ismerd meg a bolygószomszédaidat és a Naprendszer lenyűgöző jelenségeit</p>
+                            </div>
+                            <div class="program-meta d-flex flex-column flex-md-row align-items-center gap-3">
+                                <div class="meta-item d-flex align-items-center gap-2">
+                                    <svg class="calendar-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8FB3DD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    <span class="font-monospace">2026.05.12 11:00</span>
+                                </div>
+                                <div class="meta-item ms-md-4">6 éves kortól ajánlott</div>
+                            </div>
+                        </div>
+                        <div class="detail-row text-center text-md-end mt-3 mt-md-0 w-100-mobile">
+                            <a href="jegyek.html" class="detail-btn px-5 py-2 rounded-pill">Tovább</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12">
+                    <article class="program-card d-flex flex-column flex-md-row align-items-center p-4">
+                        <div class="program-image mb-3 mb-md-0">
+                            <img src="imgek/urhajos.png" alt="Űrutazás Kezdőknek" class="img-fluid rounded">
+                        </div>
+                        <div class="program-info flex-grow-1 px-md-4 text-center text-md-start">
+                            <div class="mb-3">
+                                <h2>Űrutazás Kezdőknek</h2>
+                                <p>Interaktív előadás az űrutazás múltjáról jelenéről és jövőjéről</p>
+                            </div>
+                            <div class="program-meta d-flex flex-column flex-md-row align-items-center gap-3">
+                                <div class="meta-item d-flex align-items-center gap-2">
+                                    <svg class="calendar-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8FB3DD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    <span class="font-monospace">2026.05.12 12:00</span>
+                                </div>
+                                <div class="meta-item ms-md-4">8 éves kortól ajánlott</div>
+                            </div>
+                        </div>
+                        <div class="detail-row text-center text-md-end mt-3 mt-md-0 w-100-mobile">
+                            <a href="jegyek.html" class="detail-btn px-5 py-2 rounded-pill">Tovább</a>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer>
+    <div class="row">
+        <div class="col-lg-5">
+            <img src="logo.png" alt="logo" style="height: 135px;">
+        </div>
+        <div class="col-lg-4">
+            <h1 style="color: #F8FAFF; margin-top: 20px; font-size: 0.95rem;">info.projekt@.com</h1>
+            <h1 style="color: #F8FAFF; font-size: 0.95rem;">+36 70 586 65 75</h1>
+        </div>
+        <div class="col-lg-1">
+            <img src="Weboldal/insta.png" alt="insta" style="height: 80px; margin-top: 50px;">
+        </div>
+        <div class="col-lg-1">
+            <img src="Weboldal/facebook.png" alt="facebook" style="height: 80px; margin-top: 50px;">
+        </div>
+        <div class="col-lg-1">
+            <img src="Weboldal/youtube.png" alt="youtube" style="height: 120px; margin-top: 28px;">
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -36,3 +36,205 @@
     color: #F8FAFF;
 
 }
+.image-wrapper{
+    position: relative;
+    width: fit-content;
+    margin: 40px auto;
+}
+
+#kép{
+    display: block;
+    height: 236px;
+    width: auto;
+}
+
+.badge-left{
+    position: absolute;
+    left: -550px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(180deg, #071726 0%, #0b2338 100%);
+    padding: 22px 28px;
+    color: #F8FAFF;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 6px 20px rgba(3,12,22,0.6);
+    min-width: 400px;
+    height: 236px;
+}
+.badge-left .badge-title{
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    font-size: 2.05rem;
+}
+.badge-left .badge-sub{
+    font-size: 1.80rem;
+    opacity: 0.95;
+}
+
+/* Right side overlay card */
+.badge-right{
+    position: absolute;
+    right: -550px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(180deg, #071726 0%, #0b2338 100%);
+    padding: 20px 22px;
+    color: #F8FAFF;
+    border-radius: 10px;
+    box-shadow: 0 8px 26px rgba(3,12,22,0.6);
+    width: 400px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.badge-right-top{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+}
+.calendar-icon{flex:0 0 28px}
+.badge-right-date{
+    color: #BFD6F2;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.badge-right-body{
+    color: #E8F2FF;
+    font-size: 1.45rem;
+    text-align: left;
+    width: 100%;
+    padding: 6px 4px;
+}
+.detail-btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #93B2E4;
+    color: #f0f1f3;
+    padding: 10px 22px;
+    border-radius: 22px;
+    text-decoration: none;
+    font-weight: 600;    font-size: 19px;    margin: 0;
+    width: 175px;
+}
+
+.badge-right-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 900px){
+    .badge-left{
+        position: static;
+        transform: none;
+        margin-bottom: 12px;
+        left: 0;
+        width: auto;
+    }
+    .image-wrapper{display:block; text-align:center}
+    .badge-right{position: static; transform:none; margin-top:12px; right:0; width:auto}
+    .badge-right-top{flex-direction:row; gap:8px}
+    .badge-right-top .detail-btn{margin-left:8px}
+}
+/* Globális háttérszín az oldalnak */
+body {
+    background-color: #0b1e3f; /* Képen látható sötétkék alap */
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+/* Főcímek */
+.program-main-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.program-subtitle {
+    color: #a2b7d4;
+    font-size: 1.1rem;
+}
+
+/* Program Kártyák alapstílusa */
+.program-card {
+    background-color: #071329; /* Sötétebb kártya háttér */
+    border: 1px solid rgba(143, 179, 221, 0.15);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Kártyán belüli képek méretezése */
+.program-image img {
+    width: 240px;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Szövegek a kártyán belül */
+.program-info h2 {
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.program-info p {
+    color: #9cb3d0;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+/* Meta adatok (időpont, korhatár) */
+.meta-item {
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+/* Világoskék "Tovább" gomb */
+.detail-btn {
+    background-color: #9cbadd;
+    color: #071329 !important;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.detail-btn:hover {
+    background-color: #b7cfe7;
+    transform: scale(1.03);
+}
+
+/* Reszponzív nézet mobilra */
+@media (max-width: 767.98px) {
+    .program-card {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .program-image img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+    .program-meta {
+        justify-content: center;
+    }
+    .w-100-mobile {
+        width: 100%;
+    }
+}
