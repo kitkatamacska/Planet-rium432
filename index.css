@@ -66,14 +66,14 @@
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 6px;
-    font-size: 2.05rem;
+    font-size: 33px;
 }
 .badge-left .badge-sub{
-    font-size: 1.80rem;
+    font-size: 29px;
     opacity: 0.95;
 }
 
-/* Right side overlay card */
+
 .badge-right{
     position: absolute;
     right: -550px;
@@ -101,11 +101,11 @@
 .badge-right-date{
     color: #BFD6F2;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 .badge-right-body{
     color: #E8F2FF;
-    font-size: 1.45rem;
+    font-size: 23px;
     text-align: left;
     width: 100%;
     padding: 6px 4px;
@@ -143,16 +143,16 @@
     .badge-right-top{flex-direction:row; gap:8px}
     .badge-right-top .detail-btn{margin-left:8px}
 }
-/* Globális háttérszín az oldalnak */
+
 body {
-    background-color: #0b1e3f; /* Képen látható sötétkék alap */
+    background-color: #0b1e3f; 
     color: #ffffff;
     font-family: sans-serif;
 }
 
-/* Főcímek */
+
 .program-main-title {
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: 500;
     letter-spacing: 2px;
     color: #ffffff;
@@ -161,12 +161,12 @@ body {
 
 .program-subtitle {
     color: #a2b7d4;
-    font-size: 1.1rem;
+    font-size: 18px;
 }
 
-/* Program Kártyák alapstílusa */
+
 .program-card {
-    background-color: #071329; /* Sötétebb kártya háttér */
+    background-color: #071329; 
     border: 1px solid rgba(143, 179, 221, 0.15);
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
@@ -177,7 +177,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Kártyán belüli képek méretezése */
+
 .program-image img {
     width: 240px;
     height: 140px;
@@ -185,9 +185,9 @@ body {
     display: block;
 }
 
-/* Szövegek a kártyán belül */
+
 .program-info h2 {
-    font-size: 1.4rem;
+    font-size: 22px;
     color: #ffffff;
     font-weight: 500;
     margin-bottom: 8px;
@@ -195,17 +195,17 @@ body {
 
 .program-info p {
     color: #9cb3d0;
-    font-size: 0.95rem;
+    font-size: 15px;
     margin-bottom: 0;
 }
 
-/* Meta adatok (időpont, korhatár) */
+
 .meta-item {
     color: #ffffff;
-    font-size: 0.95rem;
+    font-size: 15px;
 }
 
-/* Világoskék "Tovább" gomb */
+
 .detail-btn {
     background-color: #9cbadd;
     color: #071329 !important;
@@ -220,7 +220,7 @@ body {
     transform: scale(1.03);
 }
 
-/* Reszponzív nézet mobilra */
+ 
 @media (max-width: 767.98px) {
     .program-card {
         flex-direction: column !important;
