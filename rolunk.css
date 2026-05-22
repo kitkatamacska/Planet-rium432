@@ -1,0 +1,213 @@
+body {
+    background-color: #0D1F3F; 
+    color: #F8FAFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+.fekbar {
+    background-color: #0A1730;
+}
+
+.navbarkicsi, .kereso {
+    background-color: #0D1F3F;
+}
+
+
+.bemutatas-main {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.focim {
+    color: #F8FAFF;
+    font-size: 29px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.szoveg-masodlagos {
+    color: #9FB0C8;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.bemutatas-kep {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px black;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.ertek-kartya {
+    background-color: #0A1730; 
+    border-radius: 12px;
+    padding: 20px 0px 10px 0px;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 4px 12px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kartya-ikon-tarolo {
+    margin-bottom: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kartya-ikon {
+    height: 75px;
+    object-fit: contain;
+}
+
+.kartya-cim {
+    color: #F8FAFF;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.kartya-szoveg {
+    color: #9FB0C8;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    max-width: 90%; 
+}
+
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+.footervoltam {
+    background-color: #010314;
+}
+
+#logofoot {
+    height: 80px; 
+    width: auto;
+}
+
+.infoka, .infokb {
+    color: #F8FAFF;
+    font-size: 20px; 
+    margin: 0; 
+    line-height: 1.5;
+}
+
+#minket {
+    display: none; 
+}
+
+.ify {
+    height: 40px; 
+    margin-left: 12px; 
+}
+
+
+.site-header {
+    background-color: #0D1F3F ; 
+    width: 100%;
+}
+
+.custom-navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+
+.logo-img {
+    height: 90px;
+    width: auto;
+    display: block;
+}
+
+
+.nav-block-links {
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 10px 28px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.005);
+}
+
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #9FB0C8;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.18s ease-in-out, background 0.18s ease-in-out;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+
+.search-block {
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 8px 16px;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.custom-search-input {
+    background: transparent !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-size: 16px;
+    box-shadow: none !important;
+    padding-left: 10px;
+}
+
+
+.custom-search-input::placeholder {
+    color: #728499;
+    opacity: 1;
+}
+
+
+@media (max-width: 1199.98px) {
+    .navbar-collapse {
+        padding-top: 24px;
+    }
+    
+    
+    .nav-block-links {
+        background-color: transparent;
+        flex-direction: column;
+        gap: 16px;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    
+    .search-block {
+        max-width: 100%;
+        background-color: rgba(255, 255, 255, 0.06);
+    }
+}
+
+body {
+    margin: 0;
+}

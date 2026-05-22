@@ -10,7 +10,7 @@ body {
 
 
 .kapcsolat-cim {
-    font-size: 1.4rem;
+    font-size: 25px;
     font-weight: 400;
     margin-bottom: 35px;
     letter-spacing: 1px;
@@ -22,7 +22,7 @@ body {
 }
 
 .info-fejlec {
-    font-size: 1.15rem;
+    font-size: 18px;
     display: flex;
     align-items: center;
     margin-bottom: 8px;
@@ -31,7 +31,7 @@ body {
 .info-szoveg {
     color: #9FB0C8;
     margin-left: 28px; 
-    font-size: 0.95rem;
+    font-size: 15px;
     line-height: 1.6;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .egyedi-input::placeholder {
     color: #9FB0C8;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .egyedi-input:focus {
@@ -111,13 +111,13 @@ body {
 
 .jelolo-szoveg {
     color: #ffffff;
-    font-size: 1.05rem;
+    font-size: 17px;
     line-height: 1.4;
 }
 
 .jelolo-szoveg strong {
     font-weight: 500;
-    font-size: 1.15rem;
+    font-size: 18px;
 }
 
 .csillag-ikon {
