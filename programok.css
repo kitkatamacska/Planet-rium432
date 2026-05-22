@@ -1,0 +1,138 @@
+body {
+    background-color: #0b1e3f;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.program-main-title {
+    font-size: 44.8px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.program-subtitle {
+    color: #a2b7d4;
+    font-size: 18.4px;
+    font-weight: 400;
+}
+
+.program-list {
+    padding-bottom: 60px;
+}
+
+.program-card {
+    background-color: #06152d;
+    border: 1px solid rgba(143, 179, 221, 0.08);
+    border-radius: 8px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
+}
+
+.program-image img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.program-info h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.program-info p {
+    color: #9cb3d0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.meta-item {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.font-monospace {
+    color: #bfd6f2;
+    font-size: 16.8px;
+}
+
+.detail-btn {
+    background-color: #93b2e4;
+    color: #0b1e3f !important;
+    font-weight: 600;
+    font-size: 16.8px;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 160px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.detail-btn:hover {
+    background-color: #b3ccf5;
+    transform: scale(1.02);
+}
+
+@media (max-width: 767.98px) {
+    .program-card {
+        flex-direction: column !important;
+        text-align: center;
+        padding: 24px !important;
+    }
+    
+    .program-image {
+        margin-bottom: 24px !important;
+    }
+    
+    .program-image img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .program-info {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .program-meta {
+        justify-content: center;
+        flex-direction: column !important;
+        gap: 10px !important;
+        margin-bottom: 24px;
+    }
+    
+    .meta-item.ms-md-4 {
+        margin-left: 0 !important;
+    }
+    
+    .w-100-mobile {
+        width: 100%;
+    }
+    
+    .detail-btn {
+        width: 100%;
+        max-width: 280px;
+    }
+}
+p{
+    color: #F8FAFF !important;
+}
+span{
+    color: #F8FAFF !important;
+}
+svg{
+    color: #F8FAFF !important;
+}
