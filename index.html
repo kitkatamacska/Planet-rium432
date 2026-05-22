@@ -9,54 +9,52 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="index.css">
-    <style>
-       
-    </style>
 </head>
 <body>
 
 
-<header class="site-header">
-    <nav class="navbar navbar-expand-xl navbar-dark custom-navbar py-0">
-        <div class="container-fluid px-0">
-            
-            <a class="navbar-brand me-4 py-0" href="index.html">
-                <img src="logo.png" alt="Planetarium Logo" class="logo-img">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#planetariumNav" aria-controls="planetariumNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="planetariumNav">
+    <header class="site-header">
+        <nav class="navbar navbar-expand-xl navbar-dark custom-navbar py-0">
+            <div class="container-fluid px-0 fekbar">
                 
-                <ul class="navbar-nav nav-block-links me-auto mb-3 mb-xl-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="programok.html">Programok</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="jegyek.html">Jegyek</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galéria.html">Galéria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="rólunk.html">Rólunk</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
-                    </li>
-                </ul>
-
-                <form class="d-flex search-block" role="search">
-                    <input class="form-control custom-search-input" type="search" placeholder="Keresés..." aria-label="Search">
-                </form>
-
+                <a class="navbar-brand me-4 py-0" href="index.html">
+                    <img src="imgek/logo.png" alt="Planetarium Logo" class="logo-img">
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#planetariumNav" aria-controls="planetariumNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="planetariumNav">
+                    
+                    <ul class="navbar-nav nav-block-links me-auto mb-3 mb-xl-0 navbarkicsi">
+                        <li class="nav-item">
+                            <a class="nav-link" href="programok.html">Programok</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="jegyek.html">Jegyek</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galéria.html">Galéria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rólunk.html">Rólunk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+                        </li>
+                    </ul>
+    
+                    <form class="d-flex search-block kereso" role="search">
+                        <input class="form-control custom-search-input" type="search" placeholder="Keresés..." aria-label="Search">
+                    </form>
+    
+                </div>
+                
             </div>
-            
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
+
 <div>
     <div class="container-fluid"  id="hero"> 
         <div class="row">
@@ -89,24 +87,27 @@
 </div>
 
 
-<footer>
-    <div class="row">
-        <div class="col-lg-5">
-            <img src="logo.png" alt="logo" style="height: 135px;">
+<footer class="mt-auto py-4 py-lg-3 footervoltam">
+    <div class="row align-items-center m-0 g-0 text-center text-lg-start">
+        
+        <div class="col-12 col-lg-4 p-0 mb-4 mb-lg-0">
+            <a href="index.html"><img src="imgek/logo.png" alt="logo" id="logofoot"></a>
         </div>
-        <div class="col-lg-4">
-            <h1 style="color: #F8FAFF; margin-top: 20px; font-size: 0.95rem;">info.projekt@.com</h1>
-            <h1 style="color: #F8FAFF; font-size: 0.95rem;">+36 70 586 65 75</h1>
+
+        <div class="col-12 col-lg-4 text-center mb-4 mb-lg-0">
+            <div class="infoka">info.projekt@.com</div>
+            <div class="infokb">+36 70 586 6575</div>
         </div>
-        <div class="col-lg-1">
-            <img src="Weboldal/insta.png" alt="insta" style="height: 80px; margin-top: 50px;">
+
+        <div class="col-12 col-lg-4 text-lg-end pe-lg-5">
+            <div id="minket">Kövess minket!</div> 
+            <div class="social-icons d-flex justify-content-center justify-content-lg-end">
+                <a href="https://www.instagram.com/rlevi"><img src="imgek/insta.png" alt="insta" class="ify"></a>
+                <a href="https://www.facebook.com/levente.roka.79"><img src="imgek/facebook.png" alt="facebook" class="ify"></a>
+                <a href="https://www.youtube.com/@aijsiYT"><img src="imgek/youtube.png" alt="youtube" class="ify"></a>
+            </div>
         </div>
-        <div class="col-lg-1">
-            <img src="Weboldal/facebook.png" alt="facebook" style="height: 80px; margin-top: 50px;">
-        </div>
-        <div class="col-lg-1">
-            <img src="Weboldal/youtube.png" alt="youtube" style="height: 120px; margin-top: 28px;">
-        </div>
+
     </div>
 </footer>
 
