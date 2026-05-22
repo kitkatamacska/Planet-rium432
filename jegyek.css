@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexycont {
+    background-color: #0D1F3F !important;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+}
+
+.jegycontainer {
+    padding: 35px;
+    background-color: #0A1730;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    color: #9FB0C8;
+    width: 70%;
+    max-width: 1100px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.jegytipus {
+    flex: 1;
+    border-right: 1px solid #9FB0C8;
+    padding-right: 30px;
+}
+
+.jegyar {
+    flex: 1;
+    padding-left: 30px;
+    text-align: right; 
+}
+
+.jegy2 h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.jegy {
+    padding: 22px 0;
+    border-bottom: 1px solid #9FB0C8;
+}
+
+.jegy p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.jegy:last-child {
+    border-bottom: none
+}
+
+.jegyinfo {
+    display: flex;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 70%;
+    max-width: 1100px;
+    background-color: #0A1730;
+    align-items: center;
+    padding: 30px;
+    height: auto;
+}
+
+.kisi {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.ibetu {
+    height: 70px;
+    width: 70px;
+    background-color: #9FB0C8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ii {
+    color: #0A1730;
+    font-size: 38px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.bennemszoveg {
+    flex: 1;
+    margin-left: 25px;
+}
+
+.infoszoveg {
+    font-size: 18px;
+    color: #9FB0C8;
+    margin: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 992px) {
+    .jegycontainer, .jegyinfo {
+        width: 85%;
+        padding: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .jegycontainer, .jegyinfo {
+        width: 95%; 
+        padding: 20px;
+    }
+
+    .jegy2 h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .jegy {
+        padding: 15px 0;
+    }
+
+    .jegy p {
+        font-size: 16px;
+    }
+
+    .infoszoveg {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .jegyinfo {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .bennemszoveg {
+        margin-left: 0;
+    }
+}
