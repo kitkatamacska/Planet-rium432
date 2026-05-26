@@ -186,6 +186,9 @@ footer {
     color: #728499;
     opacity: 1;
 }
+#kartyak{
+    margin-left: 80px;
+}
 
 
 @media (max-width: 1199.98px) {
